@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "268277930642",
+    "firebase_url": "https://numarket-eslavadev.firebaseio.com",
+    "project_id": "numarket-eslavadev",
+    "storage_bucket": "numarket-eslavadev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268277930642:android:0ea0389a4742ed9b2e244b",
+        "android_client_info": {
+          "package_name": "com.numarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268277930642-j88ga7o0oifvu00g9a2ejjgs9hbga40a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0I1nrDTYmKwV2C5gxcCAdoFYmbZrwYNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268277930642-j88ga7o0oifvu00g9a2ejjgs9hbga40a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "268277930642-gmhmqcfqdq55l0d8mbg5mg60sbocgubn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.nuMarket"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
