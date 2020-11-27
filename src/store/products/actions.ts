@@ -32,14 +32,11 @@ export const buyProduct: AsyncAction = (id: string) => {
         throw errors;
       }
       if (data.purchase?.errorMessage) {
-        console.log('error', data.errorMessage);
         throw data.purchase?.errorMessage;
       }
 
-      console.log(data);
       dispatch(updateBalance(data.purchase?.customer?.balance || 0));
     } catch (error) {
-      console.log(error);
       dispatch({
         type: '@@PRODUCT/LOAD_PRODUCT_FAILED',
         error,

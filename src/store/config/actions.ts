@@ -39,7 +39,6 @@ export const fetchConfig: AsyncAction = () => {
           values[key] = entry.asString();
         }
       });
-      console.log(values);
 
       buildServices({ apiUrl: values.enviromentUrl, token: values.token });
 

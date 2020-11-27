@@ -7,7 +7,6 @@ export const fetchCustomer: AsyncAction = () => {
     });
     try {
       const { data } = await CustomerService.getCustomer();
-      console.log(mapperCustomer(data));
       dispatch({
         type: '@@CUSTOMER/LOAD_CUSTOMER_DONE',
         payload: mapperCustomer(data),
